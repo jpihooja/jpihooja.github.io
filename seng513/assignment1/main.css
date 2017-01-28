@@ -32,9 +32,8 @@
     color: #2E515B;
 }
 
-#wrapper {
+#main-wrapper {
     text-align: center;
-    margin: 
 }
 
 .top_image {
@@ -42,7 +41,19 @@
     text-align: center;
     border-radius: 30px;
     margin: 20px;
+    margin-top: 40px;
+}
+.subpage-wrapper {
+    text-align: left;
+}
 
+.season_image {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    border-radius: 30px;
+    margin: 20px;
+    margin-top: 40px;
 }
 
 .fit_image{
@@ -58,8 +69,39 @@
     font-family: 'Ruluko';
     font-size: 20px;
     margin: 20px;
-    color: #EDE8ED;
-    
+    color: #EDE8ED; 
+}
+
+.season_content{
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+    font-family: 'Ruluko';
+    font-size: 20px;
+    margin: 20px;
+    color: #EDE8ED; 
+}
+
+.season_synopsis_quote {
+    margin-left: 20px;
+}
+
+.episode-table {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+}
+
+.episode-table .episode-number {
+    text-align: center
+}
+
+.episode-table tr:nth-child(even) {
+    background-color: #355D68; 
+}
+
+.episode-table th {
+    background-color: #233D44; 
 }
 
 html, body {
@@ -69,4 +111,8 @@ html, body {
 
 header {
     width: 100%;
+}
+
+h2 {
+    font-family: 'Contrail One';
 }
