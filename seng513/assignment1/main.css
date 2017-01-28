@@ -19,8 +19,17 @@
     display: inline-block;
 }
 
+.nav_button a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav_button:hover {
     background-color: #3A3938;
+}
+
+.selected {
+    color: #2E515B;
 }
 
 #wrapper {
