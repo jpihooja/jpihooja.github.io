@@ -117,6 +117,12 @@ header {
     width: 100%;
 }
 
+h1 {
+    font-size: 40px;
+    font-family: 'Contrail One';
+    color: #EDE8ED; 
+}
+
 h2 {
     font-family: 'Contrail One';
 }
