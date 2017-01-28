@@ -104,6 +104,10 @@
     background-color: #233D44; 
 }
 
+.citation {
+    text-align: right;
+}
+
 html, body {
     height: 100%;
     background-color: #2E515B;
