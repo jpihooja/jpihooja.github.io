@@ -1,0 +1,67 @@
+#wrapper {
+    min-height: 100%; 
+    height: auto !important; /*Cause footer to stick to bottom in IE 6*/
+    height: 100%; 
+    margin: 0 auto -100px; /*Allow for footer height*/
+    vertical-align:bottom;
+}
+
+.top_image {
+    position: relative;
+    text-align: center;
+    border-radius: 30px
+
+}
+
+.left_image {
+    float: left;
+    width: 33%;
+}
+
+.center_image {
+    float: left;
+    width: 33%;
+}
+
+.right_image {
+    float: left;
+    width: 33%;
+}
+
+.fit_image{
+    max-width: 99%;
+    max-height: 99%;
+    border-radius: inherit;
+}
+
+.nav_button {
+    display: inline-block;
+}
+
+.main_quote {
+    display: inline-block
+    text-align: center;
+    width: 80%;
+    font-family: "Verdana", "Geneva", "sans-serif";
+    margin: 20px;
+    color: #EDE8ED;
+    
+}
+
+html, body {
+    height: 100%;
+    background-color: #2E515B;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding:10px;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    padding:10px;
+}

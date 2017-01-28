@@ -1,0 +1,37 @@
+#article {
+  background: lightblue;
+}
+
+#nav {
+  background: orange;
+}
+
+#aside {
+  background: pink;
+}
+
+.divin {
+  padding: 10px;
+  border: 1px dashed black;
+  font-size: 2em;
+  margin: 3px;
+}
+
+#wrapper {
+  display: flex;
+  height: 500px;
+  xbackground: blue;
+  flex-flow: row wrap;
+}
+
+#nav,
+#aside {
+  flex: 1;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+#article {
+  flex: 1;
+  min-width: 400px;
+}
