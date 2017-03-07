@@ -1,7 +1,5 @@
-# chat-example
+# Multi-user Chat
 
-This is the source code for a very simple chat example used for 
-the [Getting Started](http://socket.io/get-started/chat/) guide 
+This is a modified application for a simple multi-user chat application. The source code has been modified from the simple chat example used for 
+found at [Getting Started](http://socket.io/get-started/chat/) guide 
 of the Socket.IO website.
-
-Please refer to it to learn how to run this application.
